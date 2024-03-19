@@ -1,0 +1,67 @@
+header {
+    color: aliceblue;
+    background-color: rgb(122, 85, 50);
+    width: auto;
+    text-align: center;
+}
+
+body {
+    font-family: 'Gill Sans MT';
+    background-color: burlywood;
+}
+
+.titulo, .receta, .comentarios, .alternativa, .video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo, .receta, .alternativa {
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.titulo {
+    width: max-content;
+    border-left: 10px solid beige;
+    border-right: 10px solid beige;
+}
+
+.imagen {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.receta {
+    border-right: 20px solid beige;
+    border-left: 20px solid beige;
+    border-top: 2px solid beige;
+    border-bottom: 20px solid beige;
+    width: 80%;
+    text-align: justify;
+}
+
+.comentarios {
+    text-align: justify;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blanchedalmond;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.alternativa {
+    border-left: 20px solid burlywood;
+    border-right: 20px solid burlywood;
+    border-bottom: 5px solid burlywood;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.alternativa, .video {
+    width:min-content;
+    margin-left: 90px;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+}
